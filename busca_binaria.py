@@ -1,5 +1,3 @@
-
-
 def busca_binaria(lista, alvo):
     inicio = 0
     fim = len(lista) - 1
@@ -27,10 +25,9 @@ def busca_normal(lista, alvo):
             print(f'[NORMAL] --> Contador : {contator}')
             break
     
-        
-
 lista = list(range(1, 100001))
 
-busca_normal(lista, 80532 )
+busca_normal(lista, 80532)
+busca_binaria(lista, 80532)
 
-busca_binaria(lista, 80532 )
+print("FIM")
