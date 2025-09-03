@@ -3,6 +3,7 @@ def busca_binaria(lista, alvo):
     fim = len(lista) - 1
     contador = 0
 
+    
     while inicio <= fim:
         contador += 1 
         meio_lista  = (inicio + fim) // 2
